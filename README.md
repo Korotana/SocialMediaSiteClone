@@ -24,28 +24,28 @@ Quick Start
 bash
 Copy
 Edit
-# Clone & enter the project
+#### Clone & enter the project
 git clone https://github.com/your-user/simple-social.git
 cd simple-social
 
-# Create and activate a virtual environment
+#### Create and activate a virtual environment
 python -m venv venv
 source venv/bin/activate       # Windows: venv\Scripts\activate
 
-# Install dependencies
+#### Install dependencies
 pip install -r requirements.txt
-# (or: pip install django misaka)
+(or: pip install django misaka)
 
-# Apply migrations
+#### Apply migrations
 python manage.py migrate
 
-# (Optional) create admin user
+#### (Optional) create admin user
 python manage.py createsuperuser
 
-# Run the development server
+#### Run the development server
 python manage.py runserver
-# Visit http://127.0.0.1:8000
-Learning Goals
+Visit http://127.0.0.1:8000
+##### Learning Goals
 See Django project vs. app layout in practice
 
 Implement CRUD and model relationships (User → Post, Group ↔ User)
@@ -54,7 +54,7 @@ Work with class-based views and URL routing
 
 Integrate pagination, Markdown, and Bootstrap in a real app
 
-Extension Ideas
+##### Extension Ideas
 Add comments or likes to posts
 
 Implement pagination for long feeds
@@ -64,13 +64,4 @@ Write unit tests for models and views
 Containerize with Docker and Postgres
 
 Deploy to Render, Railway, Fly.io, etc.
-
-Contributing
-Fork the repo and create a feature branch.
-
-Follow the Quick Start steps.
-
-Add tests if you change logic.
-
-Open a PR with a clear description of your changes.
 
