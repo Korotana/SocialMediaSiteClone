@@ -1,5 +1,5 @@
 Simple Social Clone (Django)
-A lightweight social-network project built with Python + Django—perfect for students who want a real-world full-stack codebase without heavy setup.
+A lightweight social-network project built with Python + Django.
 
 Key Features
 User accounts – sign-up, log-in, log-out via Django auth
