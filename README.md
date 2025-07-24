@@ -24,9 +24,6 @@ Quick Start
 bash
 Copy
 Edit
-#### Clone & enter the project
-git clone https://github.com/your-user/simple-social.git
-cd simple-social
 
 #### Create and activate a virtual environment
 python -m venv venv
